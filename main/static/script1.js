@@ -36,7 +36,7 @@ deta.forEach(function(item) {
 
 });
 
-deta.reverse().slice(0,3).forEach(function(item){
+deta.forEach(function(item){
   content += `</tr>
   <tr>
     <th scope="row">${item.id}</th>
@@ -66,3 +66,4 @@ Total_box.textContent = (Total_sum - Expenses).toLocaleString();
     empty.classList.remove("d-none")
   }
 });
+69

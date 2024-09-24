@@ -52,4 +52,3 @@ class Transaction(models.Model):
     class Meta:
         verbose_name = "تراکنش"
         verbose_name_plural = "تراکنش ها"
-        
